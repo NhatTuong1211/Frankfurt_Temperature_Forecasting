@@ -1,0 +1,18 @@
+{
+    "model": "Prophet",
+    "train_period": "2020-01-01 to 2024-12-31",
+    "validation_period": "2025-01-01 to 2025-12-31",
+    "best_params": {
+        "yearly_seasonality": true,
+        "weekly_seasonality": true,
+        "daily_seasonality": false,
+        "changepoint_prior_scale": 0.05,
+        "seasonality_prior_scale": 5.0,
+        "seasonality_mode": "additive",
+        "interval_width": 0.95
+    },
+    "validation_metrics": {
+        "MAE": 2.557701,
+        "RMSE": 3.215186
+    }
+}

@@ -1,0 +1,4 @@
+﻿Xep_hang,Mo_hinh,MAE,RMSE,Bias,So_ngay,Duoc_chon
+1,Prophet,3.265036,4.002600,-0.454990,181,True
+2,LightGBM,3.304727,4.166474,0.053349,181,False
+3,Seasonal Naive,3.568508,4.581557,-0.304420,181,False

@@ -1,0 +1,36 @@
+{
+  "model_name": "LightGBM",
+  "best_params": {
+    "max_depth": 2,
+    "num_leaves": 4,
+    "learning_rate": 0.02,
+    "min_child_samples": 50,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 1.0,
+    "reg_lambda": 1.0
+  },
+  "n_estimators": 213,
+  "fourier_k": 3,
+  "feature_cols": [
+    "time_month",
+    "time_dayofyear",
+    "time_weekofyear",
+    "time_sin_1",
+    "time_cos_1",
+    "time_sin_2",
+    "time_cos_2",
+    "time_sin_3",
+    "time_cos_3",
+    "ar_tavg_lag_365",
+    "ar_tavg_lag_730",
+    "ar_tavg_same_day_2yr_mean",
+    "ar_tavg_lag365_roll_mean_7",
+    "ar_tavg_lag365_roll_mean_14",
+    "ar_tavg_lag365_roll_mean_30",
+    "ar_tavg_lag365_roll_std_14"
+  ],
+  "random_state": 42,
+  "val_2025_MAE": 2.5843,
+  "val_2025_RMSE": 3.2125
+}
