@@ -7,12 +7,12 @@
         "weekly_seasonality": true,
         "daily_seasonality": false,
         "changepoint_prior_scale": 0.05,
-        "seasonality_prior_scale": 5.0,
+        "seasonality_prior_scale": 1.0,
         "seasonality_mode": "additive",
         "interval_width": 0.95
     },
     "validation_metrics": {
-        "MAE": 2.557701,
-        "RMSE": 3.215186
+        "MAE": 2.555951,
+        "RMSE": 3.21415
     }
 }
